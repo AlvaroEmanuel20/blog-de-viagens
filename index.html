@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog de viagens</title>
+</head>
+<body>
+    
+    <header>
+        <div class="bg-header">
+            <div class="opacity">
+                <nav>
+
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/images/Logo.svg" alt="Logo do site">
+                        </a>
+                    </div>
+
+                    <div class="hamburger">
+                        <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="menu-responsive rounded-shadow">
+                        <a href="#about">Sobre</a>
+                        <a href="#popular-posts">Destinos</a>
+                        <a href="#testimonials">Depoimentos</a>
+                        <div class="contact-menu">
+                            <i class="fa-solid fa-envelope"></i>
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+    
+                    <div class="nav-links">
+                        <a href="#about">Sobre</a>
+                        <a href="#popular-posts">Destinos</a>
+                        <a href="#testimonials">Depoimentos</a>
+                        <button class="btn rounded-shadow">Inscreva-se</button>
+                    </div>
+    
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-card-welcome">
+            <section class="card-welcome rounded-shadow">
+                <h1>Sejam muito bem-vindos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu id gravida aliquet maecenas urna placerat lobortis sed.</p>
+            </section>
+        </div>
+    </header>
+
+    <section id="best-post" class="margin-section">
+        <article class="container">
+            <div class="image-post rounded-shadow"></div>
+
+            <div class="post-content">
+                <p><strong>África</strong> - 17 de março, 2022</p>
+                <h2><strong>Madagascar:</strong> tudo o que você precisa saber sobre a ilha do rei Julien</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu id gravida aliquet maecenas urna placerat lobortis sed. Morbi eu id gravida aliquet maecenas urna placerat lobortis sed <br><br><a class="read-more" href="#best-post">Leia mais -></a></p>
+                <div class="author-post">
+                    <img src="./assets/images/person1.png" alt="Autor do post">
+                    <div class="author-content">
+                        <h4>Fernando Oliveira</h4>
+                        <p>Empreendedor e fotógrafo</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="popular-posts" class="margin-section">
+        <div class="title">
+            <h2>Mais Visitados</h2>
+            <div class="line"></div>
+            <div class="line-dashed"></div>
+        </div>
+
+        <div class="container">
+            <article class="popular-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Polinésia Francesa</strong> - 17 de março, 2022</p>
+                <h2>Conheça a ilha de Bora Bora local perfeito para uma lua de mel na Polinésia Francesa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat vulputate pharetra sit rhoncus, morbi. Tristique hendrerit <br><br><a class="read-more" href="#popular-posts">Leia mais -></a></p>
+            </article>
+
+            <article class="popular-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Brasil</strong> - 17 de março, 2022</p>
+                <h2>Lindo lugar no Rio de Janeiro fundado em 1503 por Américo Vespúcio, Arraial do Cabo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat vulputate pharetra sit rhoncus, morbi. Tristique hendrerit <br><br><a class="read-more" href="#popular-posts">Leia mais -></a></p>
+            </article>
+        </div>
+    </section>
+
+    <section id="aventures" class="margin-section">
+        <div class="title">
+            <div class="title-content">
+                <h2>Aventuras</h2>
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line-dashed"></div>
+                </div>
+            </div>
+            <div class="btn-more">
+                <button class="btn-outline">Ver Mais</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <article class="aventure-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Surfe</strong> - 17 de março, 2022</p>
+                <h2>Melhores praias para surfar no Havaí</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#aventures">Leia mais -></a></p>
+            </article>
+
+            <article class="aventure-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Snowboard</strong> - 17 de março, 2022</p>
+                <h2>Inverno Europeu e o snowboard</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#aventures">Leia mais -></a></p>
+            </article>
+
+            <article class="aventure-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Mergulho</strong> - 17 de março, 2022</p>
+                <h2>Locais para mergulho que são incríveis</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#aventures">Leia mais -></a></p>
+            </article>
+        </div>
+    </section>
+
+    <section id="historics" class="margin-section">
+        <div class="title">
+            <div class="title-content">
+                <h2>Históricos</h2>
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line-dashed"></div>
+                </div>
+            </div>
+            <div class="btn-more">
+                <button class="btn-outline">Ver Mais</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <article class="historic-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Jordânia</strong> - 24 de março, 2022</p>
+                <h2>Uma das sete maravilhas do mundo, Petra na Jordânia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#historics">Leia mais -></a></p>
+            </article>
+
+            <article class="historic-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>Peru</strong> - 24 de março, 2022</p>
+                <h2>Machu Picchu, conheça a conservada cidade perdida dos Incas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#historics">Leia mais -></a></p>
+            </article>
+
+            <article class="historic-post">
+                <div class="image-post rounded-shadow"></div>
+                <p><strong>China</strong> - 24 de março, 2022</p>
+                <h2>Construída ao longo de várias dinastias, leia sobre a Grande Muralha</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br><a class="read-more" href="#historics">Leia mais -></a></p>
+            </article>
+        </div>
+    </section>
+
+    <section id="post-aside" class="margin-section">
+        <div class="container-aside rounded-shadow">
+            <div class="content">
+                <h2>10 Dicas incríveis para organizar e planejar sua viagem</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat.</p>
+                <button class="btn rounded-shadow">Ler Mais</button>
+            </div>
+
+            <div class="img-rounded"></div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="margin-section">
+        <div class="title">
+            <div class="line-dashed2"></div>
+            <div class="line2"></div>
+            <h2>Depoimentos</h2>
+            <div class="line"></div>
+            <div class="line-dashed"></div>
+        </div>
+
+        <div class="container">
+            <div class="card rounded-shadow">
+                <div class="card-content">
+                    <div class="img-person">
+                        <img src="assets/images/person-1.png" alt="Mulher">
+                    </div>
+                    <h4>Fernanda Santos</h4>
+                    <p>Advogada</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat."</p>
+                </div>
+            </div>
+
+            <div class="card rounded-shadow">
+                <div class="card-content">
+                    <div class="img-person">
+                        <img src="assets/images/person-2.png" alt="Mulher">
+                    </div>
+                    <h4>Renato Silva</h4>
+                    <p>Investidor</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card rounded-shadow">
+                <div class="card-content">
+                    <div class="img-person">
+                        <img src="assets/images/person-3.png" alt="Mulher">
+                    </div>
+                    <h4>Carla Lima</h4>
+                    <p>Terapeuta</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat."</p>
+                </div>
+            </div>
+    
+            <div class="card rounded-shadow">
+                <div class="card-content">
+                    <div class="img-person">
+                        <img src="assets/images/person-4.png" alt="Mulher">
+                    </div>
+                    <h4>Roberto Gomes</h4>
+                    <p>Empresário</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="margin-section">
+        <div class="title">
+            <div class="line-dashed2"></div>
+            <div class="line2"></div>
+            <h2>Sobre Nós</h2>
+            <div class="line"></div>
+            <div class="line-dashed"></div>
+        </div>
+
+        <div class="container">
+            <div class="image-about rounded-shadow"></div>
+            <div class="content-about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam, tristique hendrerit id aliquam pellentesque lobortis egestas. Enim, volutpat.</p>
+
+                <div class="authors" id="authors1">
+                    <img src="./assets/images/person1.png" alt="Autor do blog">
+                    <div class="author-content">
+                        <h4>Fernando Oliveira</h4>
+                        <p>Empreendedor e fotógrafo</p>
+                    </div>
+                </div>
+                <div class="authors">
+                    <img src="./assets/images/person2.png" alt="Autor do blog">
+                    <div class="author-content">
+                        <h4>Aline Medeiros</h4>
+                        <p>Médica e viajante profissional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="margin-section">
+        <div class="bg-newsletter rounded-shadow">
+            <div class="container rounded-shadow">
+                <div class="image-newsletter">
+                    <img src="./assets/images/newsletter-image.png" alt="Coração e avião">
+                </div>
+
+                <div class="form-container">
+                    <h3>Inscreva-se em nossa Newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et lectus aliquam.</p>
+                    <div class="form">
+                        <input type="email" name="email" id="email" placeholder="Insira seu melhor e-mail">
+                        <input type="submit" id="submit" value="Enviar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="margin-section" id="footer">
+        <div class="container">
+            <div class="categorias">
+                <h3>Categorias</h3>
+                <ul>
+                    <li><a href="#footer">Aventuras</a></li>
+                    <li><a href="#footer">Romântico</a></li>
+                    <li><a href="#footer">Praias</a></li>
+                </ul>
+            </div>
+            <div class="contact-footer">
+                <h3>Contato</h3>
+                <ul>
+                    <li>exemplo@blogviagem.com</li>
+                    <li>(99) 99999-9999</li>
+                </ul>
+            </div>
+            <div class="useful-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#footer">Sobre nós</a></li>
+                    <li><a href="#footer">Política de privacidade</a></li>
+                    <li><a href="#footer">Termos e condições</a></li>
+                    <li><a href="#footer">Aviso legal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="divisor-footer"></div>
+
+        <div class="container">
+            <h4>©️ Álvaro Emanuel 2022. Todos os direitos reservados.</h4>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
