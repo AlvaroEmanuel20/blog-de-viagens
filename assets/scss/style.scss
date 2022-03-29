@@ -87,7 +87,7 @@ body {
 .line-dashed {
     min-width: 148px;
     min-height: 1px;
-    background: url(../images/line-dashed.svg);
+    background: url(../images/line-dashed.svg) no-repeat;
 }
 
 /*.btn-outline {
@@ -232,6 +232,10 @@ nav {
         gap: 30px;
     }
 
+    nav .menu-responsive {
+        top: 180px;
+    }
+
     .card-welcome {
         padding: 49px 0;
     }
@@ -263,10 +267,6 @@ nav {
             font-size: 0.8em;
             width: 300px;
         }
-    }
-
-    nav .menu-responsive {
-        top: 180px;
     }
 
     nav .logo img {
@@ -774,7 +774,7 @@ nav {
         @include h2-pattern(1.7em, 15px 80px 20px 0, 500);
     }
 
-    //AVENTURE POSTS RESPONSIVE
+    //HISTORICS POSTS RESPONSIVE
     @media (max-width: 1200px) {
         .line, .line-dashed {
             display: none;
@@ -1147,7 +1147,7 @@ nav {
     .line-dashed2 {
         min-width: 148px;
         min-height: 1px;
-        background: url(../images/line-dashed.svg);
+        background: url(../images/line-dashed.svg) no-repeat;
     }
 
     .container {
