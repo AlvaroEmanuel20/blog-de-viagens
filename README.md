@@ -37,6 +37,11 @@ E para aumentar a perfomance usei o comando de terminal `sass assets/scss/style.
 
 ![Responsividade](./assets/images/responsividade.gif)
 
+## Style guide
+A criação do protótipo foi feita no Figma.
+
+![Protótipo](./assets/images/prototipo.png)
+
 
 ## 🚀 Sobre
 Olá eu sou Álvaro Emanuel, desenvolvedor front-end...
