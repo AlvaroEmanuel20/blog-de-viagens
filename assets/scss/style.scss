@@ -90,7 +90,7 @@ body {
     background: url(../images/line-dashed.svg);
 }
 
-.btn-outline {
+/*.btn-outline {
     min-width: 160px;
     min-height: 48px;
     cursor: pointer;
@@ -108,7 +108,7 @@ body {
         color: $light;
         transition: all 0.3s;
     }
-}
+}*/
 
 .read-more {
     text-decoration: none;
@@ -368,6 +368,41 @@ nav {
         padding: 80px 180px 0 180px;
     }
 
+    .container ~ .container {
+        padding-top: 40px
+    }
+
+    .container ~ .container {
+        .image-post {
+            @include image-post(544px, 320px, url(../images/machu-picchu.jpg));
+        }
+
+        .popular-post:nth-child(2) .image-post {
+            @include image-post(544px, 320px, url(../images/dive.jpg));
+        }
+
+        @media (max-width: 590px) {
+            .image-post {
+                min-width: 400px;
+            }
+    
+            .popular-post:nth-child(2) .image-post {
+                min-width: 400px;
+                background-position: center;
+            }
+        }
+
+        @media (max-width: 410px) {
+            .image-post {
+                min-width: 300px
+            }
+    
+            .popular-post:nth-child(2) .image-post {
+                min-width: 300px
+            }
+        }
+    }
+
     .image-post {
         margin-bottom: 50px;
         @include image-post(544px, 320px, url(../images/bora-bora.jpg));
@@ -407,9 +442,6 @@ nav {
 
     @media (max-width: 590px) {
         .container {
-            -webkit-flex-wrap: wrap;
-            -moz-flex-wrap: wrap;
-            flex-wrap: wrap;
             padding: 120px 40px 0 40px;
         }
 
@@ -457,6 +489,66 @@ nav {
     .container {
         gap: 35px;
         padding: 80px 180px 0 180px;
+    }
+
+    .container ~ .container {
+        padding-top: 40px;
+    }
+
+    .container ~ .container {
+        .image-post {
+            @include image-post(359px, 320px, url(../images/skydiving.jpg));
+        }
+    
+        .aventure-post:nth-child(2) .image-post {
+            @include image-post(359px, 320px, url(../images/rapids.jpg));
+        }
+    
+        .aventure-post:nth-child(3) .image-post {
+            @include image-post(359px, 320px, url(../images/cave.jpg));
+        }
+
+        @media (max-width: 870px) {
+            .image-post {
+                min-width: 400px;
+            }
+    
+            .aventure-post:nth-child(2) .image-post {
+                min-width: 400px;
+            }
+    
+            .aventure-post:nth-child(3) .image-post {
+                min-width: 400px;
+            }
+        }
+    
+        @media (max-width: 590px) {
+            .image-post {
+                min-width: 400px;
+            }
+    
+            .aventure-post:nth-child(2) .image-post {
+                min-width: 400px;
+            }
+    
+            .aventure-post:nth-child(3) .image-post {
+                min-width: 400px;
+            }
+        }
+    
+        @media (max-width: 410px) {
+            .image-post {
+                min-width: 300px
+            }
+    
+            .aventure-post:nth-child(2) .image-post {
+                min-width: 300px
+            }
+    
+            .aventure-post:nth-child(3) .image-post {
+                min-width: 300px
+            }
+        }
     }
 
     .title {
@@ -582,11 +674,6 @@ nav {
         .title-content h2 {
             font-size: 1.65em;
         }
-
-        .btn-outline {
-            min-width: 120px;
-            min-height: 45px;
-        }
     }
 }
 
@@ -595,6 +682,66 @@ nav {
     .container {
         gap: 35px;
         padding: 80px 180px 0 180px;
+    }
+
+    .container ~ .container {
+        padding-top: 40px;
+    }
+
+    .container ~ .container {
+        .image-post {
+            @include image-post(359px, 320px, url(../images/colosseum.jpg));
+        }
+    
+        .historic-post:nth-child(2) .image-post {
+            @include image-post(359px, 320px, url(../images/mexico.jpg));
+        }
+    
+        .historic-post:nth-child(3) .image-post {
+            @include image-post(359px, 320px, url(../images/taj-mahal.jpg));
+        }
+
+        @media (max-width: 870px) {
+            .image-post {
+                min-width: 400px;
+            }
+    
+            .historic-post:nth-child(2) .image-post {
+                min-width: 400px;
+            }
+    
+            .historic-post:nth-child(3) .image-post {
+                min-width: 400px;
+            }
+        }
+    
+        @media (max-width: 590px) {
+            .image-post {
+                min-width: 400px;
+            }
+    
+            .historic-post:nth-child(2) .image-post {
+                min-width: 400px;
+            }
+    
+            .historic-post:nth-child(3) .image-post {
+                min-width: 400px;
+            }
+        }
+
+        @media (max-width: 410px) {
+            .image-post {
+                min-width: 300px
+            }
+    
+            .historic-post:nth-child(2) .image-post {
+                min-width: 300px
+            }
+    
+            .historic-post:nth-child(3) .image-post {
+                min-width: 300px
+            }
+        }
     }
 
     .title {
@@ -719,11 +866,6 @@ nav {
 
         .title-content h2 {
             font-size: 1.65em;
-        }
-
-        .btn-outline {
-            min-width: 120px;
-            min-height: 45px;
         }
     }
 }
